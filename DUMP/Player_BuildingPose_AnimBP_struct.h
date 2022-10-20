@@ -1,0 +1,48 @@
+// ScriptStruct Player_BuildingPose_AnimBP.Player_BuildingPose_AnimBP_C.AnimBlueprintGeneratedConstantData
+// Size: 0x188 (Inherited: 0x01)
+struct FAnimBlueprintGeneratedConstantData : FAnimBlueprintConstantData {
+	char pad_1[0x3]; // 0x01(0x03)
+	struct FName ; // 0x04(0x04)
+	struct UAnimSequenceBase* ; // 0x08(0x08)
+	struct UAnimSequenceBase* ; // 0x10(0x08)
+	struct UAnimSequenceBase* ; // 0x18(0x08)
+	struct TArray<float> ; // 0x20(0x10)
+	struct TArray<int32_t> ; // 0x30(0x10)
+	struct UAnimSequenceBase* ; // 0x40(0x08)
+	struct FName ; // 0x48(0x04)
+	int32_t ; // 0x4c(0x04)
+	struct UAnimSequenceBase* ; // 0x50(0x08)
+	bool ; // 0x58(0x01)
+	char pad_59[0x3]; // 0x59(0x03)
+	float ; // 0x5c(0x04)
+	struct FInputScaleBiasClampConstants ; // 0x60(0x2c)
+	float ; // 0x8c(0x04)
+	struct UAnimSequenceBase* ; // 0x90(0x08)
+	enum class EAnimSyncMethod ; // 0x98(0x01)
+	enum class EAnimGroupRole ; // 0x99(0x01)
+	char pad_9A[0x6]; // 0x9a(0x06)
+	struct UBlendProfile* ; // 0xa0(0x08)
+	struct UCurveFloat* ; // 0xa8(0x08)
+	bool ; // 0xb0(0x01)
+	enum class EAlphaBlendOption ; // 0xb1(0x01)
+	enum class EBlendListTransitionType ; // 0xb2(0x01)
+	char pad_B3[0x5]; // 0xb3(0x05)
+	struct TArray<float> ; // 0xb8(0x10)
+	struct FName ; // 0xc8(0x04)
+	struct FName ; // 0xcc(0x04)
+	int32_t ; // 0xd0(0x04)
+	char pad_D4[0x4]; // 0xd4(0x04)
+	struct FAnimNodeFunctionRef ; // 0xd8(0x18)
+	struct FAnimSubsystem_PropertyAccess AnimBlueprintExtension_PropertyAccess; // 0xf0(0x80)
+	struct FAnimSubsystem_Base AnimBlueprintExtension_Base; // 0x170(0x18)
+};
+
+// ScriptStruct Player_BuildingPose_AnimBP.Player_BuildingPose_AnimBP_C.AnimBlueprintGeneratedMutableData
+// Size: 0x05 (Inherited: 0x01)
+struct FAnimBlueprintGeneratedMutableData : FAnimBlueprintMutableData {
+	bool __BoolProperty; // 0x01(0x01)
+	char ; // 0x02(0x01)
+	char ; // 0x03(0x01)
+	bool ; // 0x04(0x01)
+};
+

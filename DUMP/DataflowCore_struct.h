@@ -1,0 +1,8 @@
+// ScriptStruct DataflowCore.DataflowNode
+// Size: 0x48 (Inherited: 0x00)
+struct FDataflowNode {
+	char pad_0[0x40]; // 0x00(0x40)
+	bool bActive; // 0x40(0x01)
+	char pad_41[0x7]; // 0x41(0x07)
+};
+

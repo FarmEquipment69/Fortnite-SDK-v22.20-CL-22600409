@@ -1,0 +1,12 @@
+// BlueprintGeneratedClass TooltipLibrary.TooltipLibrary_C
+// Size: 0x28 (Inherited: 0x28)
+struct UTooltipLibrary_C : UBlueprintFunctionLibrary {
+
+	void CreateXPTooltip(struct APlayerController* Owner, struct FText Header, struct FText CommanderXP, struct FText BoostXP, struct FText RestXP, struct FText Body, struct UObject* __WorldContext, struct UCommonUserWidget*& Out); // Function TooltipLibrary.TooltipLibrary_C.CreateXPTooltip // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0xd67374
+	void Create Compare Item Tooltip(struct APlayerController* Owning Player, struct FText Header Text, struct USlateBrushAsset* Header Icon, struct UFortItem* Item, struct UFortItem* ComparedItem, struct UObject* __WorldContext, struct UWidget*& Return Value); // Function TooltipLibrary.TooltipLibrary_C.Create Compare Item Tooltip // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0xd67374
+	void Create Item Tooltip(struct APlayerController* Owning Player, struct FText Header Text, struct USlateBrushAsset* Header Icon, struct UFortItem* Item, int32_t OverrideQuantity, struct UObject* __WorldContext, struct UWidget*& Return Value); // Function TooltipLibrary.TooltipLibrary_C.Create Item Tooltip // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0xd67374
+	void Set Enabled And Tooltip Text(struct UWidget* Widget, bool Enabled, struct FText Tooltip Text, struct UObject* __WorldContext); // Function TooltipLibrary.TooltipLibrary_C.Set Enabled And Tooltip Text // (Static|Public|BlueprintCallable|BlueprintEvent) // @ game+0xd67374
+	void Create Custom Tooltip(struct APlayerController* Owning Player, struct FText Header Text, struct USlateBrushAsset* Icon Brush, struct UUserWidget* Widget, struct UObject* __WorldContext, struct UUserWidget*& Output); // Function TooltipLibrary.TooltipLibrary_C.Create Custom Tooltip // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0xd67374
+	void Create Basic Tooltip(struct APlayerController* Owning Player, struct FText Body Text, struct FText Header Text, struct USlateBrushAsset* Icon Brush, struct UCommonTextStyle* Header Style, struct UCommonTextStyle* Body Style, struct UObject* __WorldContext, struct UUserWidget*& Output); // Function TooltipLibrary.TooltipLibrary_C.Create Basic Tooltip // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0xd67374
+};
+
